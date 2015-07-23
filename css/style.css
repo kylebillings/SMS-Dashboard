@@ -164,7 +164,11 @@ h3 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
+.chat-container {
+  margin-left: 280px;
+  margin-right: 340px;
+  padding-top:80px;
+}
 .chat {
   position: relative;
   width: 100%;
@@ -186,7 +190,7 @@ h3 {
   margin: 0em 1em;
   margin-bottom: 5px;
   color: #546979;
-  background: #e6e6e6;
+  background: #E0E3E4;
   border-radius: 4px;
   float: left;
   clear: both;
@@ -198,7 +202,7 @@ h3 {
   width: 0;
   border: .6em solid transparent;
   /* arrow size */
-  border-right-color: #e6e6e6;
+  border-right-color: #E0E3E4;
   /* arrow color */
   /* positioning */
   position: absolute;
@@ -275,7 +279,7 @@ h3 {
 
 .status {
   text-align: center;
-  color: #44b6ff;
+  color: #999;
   margin-bottom: 10px;
 }
 
@@ -315,9 +319,6 @@ h3 {
 }
 .map-container h1 {
   color: #3A4954;
-}
-.map-container p {
-  color: #44b6ff;
 }
 .map-container path {
   fill: #546979 !important;
@@ -662,7 +663,7 @@ span.dot {
     position: absolute;
     border-style: solid;
     border-width: 7px 7px 0;
-    border-color: #e1e1e1 transparent;
+    border-color: #E0E3E4 transparent;
     display: block;
     width: 0;
     z-index: 1;

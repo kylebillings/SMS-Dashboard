@@ -5,7 +5,7 @@ angular.module('chat', [])
         //Add default messages to object
         $scope.messages = [{
             text: "Hey! My name is Kyle. I'll answer any questions you have about selling your things.",
-            from: 'message-remote'
+            from: 'message-local'
         }];
         //Function to add message
         var $messagesContainer=$(".messages")
